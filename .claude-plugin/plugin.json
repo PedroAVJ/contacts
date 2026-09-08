@@ -1,0 +1,19 @@
+{
+  "name": "contacts",
+  "version": "0.1.6",
+  "description": "Read and manage Apple Contacts through the macOS Contacts framework.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/contacts",
+  "repository": "https://github.com/PedroAVJ/contacts",
+  "license": "MIT",
+  "keywords": [
+    "apple-contacts",
+    "contacts",
+    "macos",
+    "address-book"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "contacts",
+  "version": "0.1.6",
+  "description": "Read and manage Apple Contacts through the macOS Contacts framework.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/contacts",
+  "repository": "https://github.com/PedroAVJ/contacts",
+  "license": "MIT",
+  "keywords": [
+    "apple-contacts",
+    "contacts",
+    "macos",
+    "address-book"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Contacts",
+    "shortDescription": "Direct Apple Contacts management",
+    "longDescription": "Use Apple's Contacts framework directly rather than visual automation: inventory and search raw cards, read structured contact details, discover or add exact directional relationships, add verified email addresses, and add or remove postal addresses with read-back verification.",
+    "developerName": "PedroAVJ",
+    "category": "Communication",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#8E8E93",
+    "composerIcon": "./assets/contacts-icon.svg",
+    "logo": "./assets/contacts-icon.svg",
+    "screenshots": [],
+    "defaultPrompt": [
+      "Show the relationships stored on My Card",
+      "Add this exact relationship to My Card",
+      "Find this person in Apple Contacts",
+      "Add this verified email address to the exact contact card",
+      "Add this address to the exact contact card",
+      "Show the contact cards stored in iCloud"
+    ]
+  }
+}
